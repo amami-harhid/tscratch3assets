@@ -1,0 +1,21 @@
+{
+  "name": "tscratch3assets",
+  "version": "0.0.1",
+  "description": "typescracher assets",
+  "main": "src/index.html",
+  "author": "@amami-harhid",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amami-harhid/tscratch3assets.git"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build --config ./vite.config-build.js --emptyOutDir"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^6.2.3"
+  }
+}
