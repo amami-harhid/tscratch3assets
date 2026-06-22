@@ -1,0 +1,28 @@
+/**
+ * このファイルの内容を変更してはいけません。
+ */
+ {
+    "include": ["./src/**/*.ts"],
+    "exclude": ["./node_modules/*"],
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "ignoreDeprecations": "6.0",
+      "types": ["node"],
+      "lib": ["esnext", "DOM", "DOM.Iterable"],
+      "skipLibCheck": true,
+      "baseUrl": "//assets",
+      "importHelpers": true,
+      "allowImportingTsExtensions": true,
+      "noEmit": true,
+  
+      /* Linting */
+      "strict": true,
+      "noUnusedLocals": true,
+      //"noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true,
+      /* import package.json のために許可する */
+      "resolveJsonModule": true
+    }
+  }
