@@ -15,7 +15,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Baseball 1",
+        "name": "Baseball1",
         "creater": "Scratch-Foundation",
         "tags": [
             "baseball",
@@ -27,7 +27,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Baseball 2",
+        "name": "Baseball2",
         "creater": "Scratch-Foundation",
         "tags": [
             "baseball",
@@ -39,7 +39,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Basketball 1",
+        "name": "Basketball1",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -51,7 +51,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Basketball 2",
+        "name": "Basketball2",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -62,7 +62,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Beach Malibu",
+        "name": "BeachMalibu",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors"
@@ -71,7 +71,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Beach Rio",
+        "name": "BeachRio",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors"
@@ -80,7 +80,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Bedroom 1",
+        "name": "Bedroom1",
         "creater": "Scratch-Foundation",
         "tags": [
             "bedroom",
@@ -90,7 +90,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Bedroom 2",
+        "name": "Bedroom2",
         "creater": "Scratch-Foundation",
         "tags": [
             "indoors"
@@ -99,7 +99,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Bedroom 3",
+        "name": "Bedroom3",
         "creater": "Scratch-Foundation",
         "tags": [
             "indoors"
@@ -108,7 +108,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Bench With View",
+        "name": "BenchWithView",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -119,7 +119,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Blue Sky",
+        "name": "BlueSky",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -129,7 +129,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Blue Sky 2 ",
+        "name": "BlueSky2",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -159,7 +159,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Castle 1",
+        "name": "Castle1",
         "creater": "Scratch-Foundation",
         "tags": [
             "fantasy"
@@ -168,7 +168,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Castle 2",
+        "name": "Castle2",
         "creater": "Scratch-Foundation",
         "tags": [
             "fantasy"
@@ -177,7 +177,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Castle 3",
+        "name": "Castle3",
         "creater": "Scratch-Foundation",
         "tags": [
             "fantasy"
@@ -186,7 +186,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Castle 4",
+        "name": "Castle4",
         "creater": "Scratch-Foundation",
         "tags": [
             "fantasy"
@@ -214,7 +214,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "City With Water",
+        "name": "CityWithWater",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -224,7 +224,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Colorful City",
+        "name": "ColorfulCity",
         "creater": "Scratch-Foundation",
         "tags": [
             "city",
@@ -273,7 +273,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Field At Mit",
+        "name": "FieldAtMit",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -314,7 +314,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Garden-rock",
+        "name": "Garden_rock",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -325,7 +325,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Greek Theater",
+        "name": "GreekTheater",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -344,7 +344,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Hay Field",
+        "name": "HayField",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -463,7 +463,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Neon Tunnel",
+        "name": "NeonTunnel",
         "creater": "Scratch-Foundation",
         "tags": [
             "games",
@@ -474,7 +474,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Night City",
+        "name": "NightCity",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -486,7 +486,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Night City With Street",
+        "name": "NightCityWithStreet",
         "creater": "Scratch-Foundation",
         "tags": [
             "urban",
@@ -528,7 +528,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Playing Field",
+        "name": "PlayingField",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -571,7 +571,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Room 1",
+        "name": "Room1",
         "creater": "Scratch-Foundation",
         "tags": [
             "indoors",
@@ -582,7 +582,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Room 2",
+        "name": "Room2",
         "creater": "Scratch-Foundation",
         "tags": [
             "indoors"
@@ -642,7 +642,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Soccer 2",
+        "name": "Soccer2",
         "creater": "Scratch-Foundation",
         "tags": [
             "soccer",
@@ -667,7 +667,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Space City 1",
+        "name": "SpaceCity1",
         "creater": "Scratch-Foundation",
         "tags": [
             "space",
@@ -680,7 +680,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Space City 2",
+        "name": "SpaceCity2",
         "creater": "Scratch-Foundation",
         "tags": [
             "space",
@@ -746,7 +746,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Theater 2",
+        "name": "Theater2",
         "creater": "Scratch-Foundation",
         "tags": [
             "music"
@@ -765,7 +765,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Underwater 1",
+        "name": "Underwater1",
         "creater": "Scratch-Foundation",
         "tags": [
             "ocean",
@@ -777,7 +777,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Underwater 2",
+        "name": "Underwater2",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -800,7 +800,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Wall 1",
+        "name": "Wall1",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -810,7 +810,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Wall 2",
+        "name": "Wall2",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -820,7 +820,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Water And Rocks",
+        "name": "WaterAndRocks",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -858,7 +858,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Witch House",
+        "name": "WitchHouse",
         "creater": "Scratch-Foundation",
         "tags": [
             "fantasy",
@@ -884,7 +884,7 @@
         "dataFormat": "svg"
     },
     {
-        "name": "Woods And Bench",
+        "name": "WoodsAndBench",
         "creater": "Scratch-Foundation",
         "tags": [
             "outdoors",
@@ -894,7 +894,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Xy-grid",
+        "name": "Xy_grid",
         "creater": "Scratch-Foundation",
         "tags": [
             "grid",
@@ -905,7 +905,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Xy-grid-20px",
+        "name": "Xy_grid_20px",
         "creater": "Scratch-Foundation",
         "tags": [
             "grid",
@@ -916,7 +916,7 @@
         "dataFormat": "png"
     },
     {
-        "name": "Xy-grid-30px",
+        "name": "Xy_grid_30px",
         "creater": "Scratch-Foundation",
         "tags": [
             "grid",

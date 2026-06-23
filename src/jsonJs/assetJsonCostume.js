@@ -29,7 +29,7 @@ console.log(costumeJson.keys())
 for(const key of costumeJson.keys()){
     const elem = costumeJson[key];
     const asset = {};
-    asset['name'] = elem.name;
+    asset['name'] = elem.name.replace(/\s([a-z])/g, m => m.toUpperCase()).replace(/\s/g, '').replace(/\-/g, '_');
     asset['creater'] =  'Scratch-Foundation';
     asset['tags'] =  elem.tags;
     asset['url'] = ScratchFoundationAssetsURL+'/'+elem.md5ext + '/get';

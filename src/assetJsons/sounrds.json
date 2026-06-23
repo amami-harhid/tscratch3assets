@@ -1,6 +1,6 @@
 [
     {
-        "name": "A Bass",
+        "name": "ABass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -11,7 +11,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Elec Bass",
+        "name": "AElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -22,7 +22,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Elec Guitar",
+        "name": "AElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -33,7 +33,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Elec Piano",
+        "name": "AElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -45,7 +45,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Guitar",
+        "name": "AGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -56,7 +56,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Minor Ukulele",
+        "name": "AMinorUkulele",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -68,7 +68,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Piano",
+        "name": "APiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -79,7 +79,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Sax",
+        "name": "ASax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -90,7 +90,7 @@
         "dataFormat": ""
     },
     {
-        "name": "A Trombone",
+        "name": "ATrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -101,7 +101,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "A Trumpet",
+        "name": "ATrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -112,7 +112,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Afro String",
+        "name": "AfroString",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/3477ccfde26047eeb93ff43a21ac7d3d.wav/get",
@@ -131,7 +131,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Alien Creak1",
+        "name": "AlienCreak1",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -141,7 +141,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Alien Creak2",
+        "name": "AlienCreak2",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -151,7 +151,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Bass",
+        "name": "BBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -162,7 +162,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Elec Bass",
+        "name": "BElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -173,7 +173,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Elec Guitar",
+        "name": "BElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -184,7 +184,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Elec Piano",
+        "name": "BElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -196,7 +196,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Guitar",
+        "name": "BGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -207,7 +207,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Piano",
+        "name": "BPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -218,7 +218,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Sax",
+        "name": "BSax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -229,7 +229,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Trombone",
+        "name": "BTrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -240,7 +240,7 @@
         "dataFormat": ""
     },
     {
-        "name": "B Trumpet",
+        "name": "BTrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -268,7 +268,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Basketball Bounce",
+        "name": "BasketballBounce",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -278,14 +278,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Bass Beatbox",
+        "name": "BassBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/28153621d293c86da0b246d314458faf.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Beat Box1",
+        "name": "BeatBox1",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -297,7 +297,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Beat Box2",
+        "name": "BeatBox2",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -309,14 +309,14 @@
         "dataFormat": ""
     },
     {
-        "name": "Bell Cymbal",
+        "name": "BellCymbal",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/efddec047de95492f775a1b5b2e8d19e.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Bell Toll",
+        "name": "BellToll",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -326,7 +326,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Big Boing",
+        "name": "BigBoing",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -382,7 +382,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Boom Cloud",
+        "name": "BoomCloud",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -394,7 +394,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Boop Bing Bop",
+        "name": "BoopBingBop",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -405,7 +405,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Bossa Nova",
+        "name": "BossaNova",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -416,7 +416,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Bowling Strike",
+        "name": "BowlingStrike",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -433,14 +433,14 @@
         "dataFormat": ""
     },
     {
-        "name": "Buzz Whir",
+        "name": "BuzzWhir",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/d4f76ded6bccd765958d15b63804de55.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "C Bass",
+        "name": "CBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -451,7 +451,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Elec Bass",
+        "name": "CElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -462,7 +462,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Elec Guitar",
+        "name": "CElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -473,7 +473,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Elec Piano",
+        "name": "CElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -485,7 +485,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Guitar",
+        "name": "CGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -496,7 +496,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Major Ukulele",
+        "name": "CMajorUkulele",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -508,7 +508,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Piano",
+        "name": "CPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -519,7 +519,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Sax",
+        "name": "CSax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -530,7 +530,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Trombone",
+        "name": "CTrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -541,7 +541,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C Trumpet",
+        "name": "CTrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -552,7 +552,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Bass",
+        "name": "C2Bass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -563,7 +563,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Elec Bass",
+        "name": "C2ElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -574,7 +574,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Elec Guitar",
+        "name": "C2ElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -585,7 +585,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Elec Piano",
+        "name": "C2ElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -597,14 +597,14 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Guitar",
+        "name": "C2Guitar",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/c8d2851bd99d8e0ce6c1f05e4acc7f34.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "C2 Piano",
+        "name": "C2Piano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -615,7 +615,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Sax",
+        "name": "C2Sax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -626,7 +626,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "C2 Trombone",
+        "name": "C2Trombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -637,7 +637,7 @@
         "dataFormat": ""
     },
     {
-        "name": "C2 Trumpet",
+        "name": "C2Trumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -648,7 +648,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Car Horn",
+        "name": "CarHorn",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -658,7 +658,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Car Passing",
+        "name": "CarPassing",
         "creater": "Scratch-Foundation",
         "tags": [
             "transportation",
@@ -669,7 +669,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Car Vroom",
+        "name": "CarVroom",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -700,7 +700,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Chee Chee",
+        "name": "CheeChee",
         "creater": "Scratch-Foundation",
         "tags": [
             "animals",
@@ -773,7 +773,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Clap Beatbox",
+        "name": "ClapBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/abc70bb390f8e55f22f32265500d814a.wav/get",
@@ -789,7 +789,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Classical Piano",
+        "name": "ClassicalPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -801,7 +801,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Clock Ticking",
+        "name": "ClockTicking",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -811,7 +811,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Clown Honk",
+        "name": "ClownHonk",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -843,14 +843,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Computer Beep",
+        "name": "ComputerBeep",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/28c76b6bebd04be1383fe9ba4933d263.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Computer Beep2",
+        "name": "ComputerBeep2",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -898,21 +898,21 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Crash Beatbox",
+        "name": "CrashBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/725e29369e9138a43f11e0e5eb3eb562.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Crash Cymbal",
+        "name": "CrashCymbal",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/f2c47a46f614f467a7ac802ed9ec3d8e.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Crazy Laugh",
+        "name": "CrazyLaugh",
         "creater": "Scratch-Foundation",
         "tags": [
             "human",
@@ -958,7 +958,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Crowd Gasp",
+        "name": "CrowdGasp",
         "creater": "Scratch-Foundation",
         "tags": [
             "voice",
@@ -968,7 +968,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Crowd Laugh",
+        "name": "CrowdLaugh",
         "creater": "Scratch-Foundation",
         "tags": [
             "voice",
@@ -1000,7 +1000,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Cymbal Crash",
+        "name": "CymbalCrash",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1010,7 +1010,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Cymbal Echo",
+        "name": "CymbalEcho",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1021,7 +1021,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Bass",
+        "name": "DBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1032,7 +1032,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Elec Bass",
+        "name": "DElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1043,7 +1043,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Elec Guitar",
+        "name": "DElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1054,7 +1054,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Elec Piano",
+        "name": "DElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1066,7 +1066,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Guitar",
+        "name": "DGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1077,7 +1077,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Piano",
+        "name": "DPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1088,7 +1088,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Sax",
+        "name": "DSax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1099,7 +1099,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Trombone",
+        "name": "DTrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1110,7 +1110,7 @@
         "dataFormat": ""
     },
     {
-        "name": "D Trumpet",
+        "name": "DTrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1121,7 +1121,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Dance Around",
+        "name": "DanceAround",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1132,7 +1132,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Celebrate",
+        "name": "DanceCelebrate",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1143,7 +1143,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Chill Out",
+        "name": "DanceChillOut",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1154,7 +1154,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Energetic",
+        "name": "DanceEnergetic",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -1166,7 +1166,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Dance Funky",
+        "name": "DanceFunky",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1177,7 +1177,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Head Nod",
+        "name": "DanceHeadNod",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1188,7 +1188,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Magic",
+        "name": "DanceMagic",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1199,7 +1199,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Sitar",
+        "name": "DanceSitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -1211,7 +1211,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Slow Mo",
+        "name": "DanceSlowMo",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1222,7 +1222,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Snare Beat",
+        "name": "DanceSnareBeat",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1233,7 +1233,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Dance Space",
+        "name": "DanceSpace",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1273,7 +1273,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Door Closing",
+        "name": "DoorClosing",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -1283,7 +1283,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Door Creak",
+        "name": "DoorCreak",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -1303,7 +1303,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drip Drop",
+        "name": "DripDrop",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1314,7 +1314,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drive Around",
+        "name": "DriveAround",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1338,28 +1338,28 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Bass1",
+        "name": "DrumBass1",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/48328c874353617451e4c7902cc82817.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Drum Bass2",
+        "name": "DrumBass2",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/711a1270d1cf2e5de9b145ee539213e4.wav/get",
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Bass3",
+        "name": "DrumBass3",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/c21704337b16359ea631b5f8eb48f765.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Drum Boing",
+        "name": "DrumBoing",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -1371,7 +1371,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Buzz",
+        "name": "DrumBuzz",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1382,7 +1382,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Drum Funky",
+        "name": "DrumFunky",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1393,7 +1393,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Jam",
+        "name": "DrumJam",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1404,7 +1404,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Drum Machine",
+        "name": "DrumMachine",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1415,7 +1415,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Roll",
+        "name": "DrumRoll",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -1425,7 +1425,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Satellite",
+        "name": "DrumSatellite",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1436,7 +1436,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Drum Set1",
+        "name": "DrumSet1",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1448,7 +1448,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Drum Set2",
+        "name": "DrumSet2",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1481,7 +1481,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Dun Dun Dunnn",
+        "name": "DunDunDunnn",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -1493,7 +1493,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "E Bass",
+        "name": "EBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1504,7 +1504,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Elec Bass",
+        "name": "EElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1515,7 +1515,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Elec Guitar",
+        "name": "EElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1526,7 +1526,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Elec Piano",
+        "name": "EElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1538,7 +1538,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Guitar",
+        "name": "EGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1549,7 +1549,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Piano",
+        "name": "EPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1560,7 +1560,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Sax",
+        "name": "ESax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1571,7 +1571,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Trombone",
+        "name": "ETrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1582,7 +1582,7 @@
         "dataFormat": ""
     },
     {
-        "name": "E Trumpet",
+        "name": "ETrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1603,7 +1603,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Elec Piano A Minor",
+        "name": "ElecPianoAMinor",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1614,7 +1614,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Elec Piano C Major",
+        "name": "ElecPianoCMajor",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1625,7 +1625,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Elec Piano F Major",
+        "name": "ElecPianoFMajor",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1636,7 +1636,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Elec Piano G Major",
+        "name": "ElecPianoGMajor",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1647,7 +1647,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Elec Piano Loop",
+        "name": "ElecPianoLoop",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1659,7 +1659,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Emotional Piano",
+        "name": "EmotionalPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -1681,7 +1681,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "F Bass",
+        "name": "FBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1692,7 +1692,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Elec Bass",
+        "name": "FElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1703,7 +1703,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Elec Guitar",
+        "name": "FElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1714,7 +1714,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Elec Piano",
+        "name": "FElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1726,7 +1726,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Guitar",
+        "name": "FGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1737,7 +1737,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Major Ukulele",
+        "name": "FMajorUkulele",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1749,7 +1749,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Piano",
+        "name": "FPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1760,7 +1760,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Sax",
+        "name": "FSax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1771,7 +1771,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "F Trombone",
+        "name": "FTrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1782,7 +1782,7 @@
         "dataFormat": ""
     },
     {
-        "name": "F Trumpet",
+        "name": "FTrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1800,7 +1800,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Finger Snap",
+        "name": "FingerSnap",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -1811,7 +1811,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Flam Snare",
+        "name": "FlamSnare",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/3b6cce9f8c56c0537ca61eee3945cd1d.wav/get",
@@ -1828,7 +1828,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Bass",
+        "name": "GBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1839,7 +1839,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Elec Bass",
+        "name": "GElecBass",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1850,7 +1850,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Elec Guitar",
+        "name": "GElecGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1861,7 +1861,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Elec Piano",
+        "name": "GElecPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1873,7 +1873,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Guitar",
+        "name": "GGuitar",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1884,7 +1884,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Piano",
+        "name": "GPiano",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1895,7 +1895,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Sax",
+        "name": "GSax",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1906,7 +1906,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "G Trombone",
+        "name": "GTrombone",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1917,7 +1917,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Trumpet",
+        "name": "GTrumpet",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1928,7 +1928,7 @@
         "dataFormat": ""
     },
     {
-        "name": "G Ukulele",
+        "name": "GUkulele",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -1960,7 +1960,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Glass Breaking",
+        "name": "GlassBreaking",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -1981,7 +1981,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Goal Cheer",
+        "name": "GoalCheer",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -2032,7 +2032,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Guitar Chords1",
+        "name": "GuitarChords1",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2043,7 +2043,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Guitar Chords2",
+        "name": "GuitarChords2",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2054,7 +2054,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Guitar Strum",
+        "name": "GuitarStrum",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2065,7 +2065,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Hand Clap",
+        "name": "HandClap",
         "creater": "Scratch-Foundation",
         "tags": [
             "human",
@@ -2075,7 +2075,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Head Shake",
+        "name": "HeadShake",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2096,14 +2096,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Hi Beatbox",
+        "name": "HiBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/5a07847bf246c227204728b05a3fc8f3.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Hi Na Tabla",
+        "name": "HiNaTabla",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2114,7 +2114,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Hi Tun Tabla",
+        "name": "HiTunTabla",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2125,7 +2125,7 @@
         "dataFormat": ""
     },
     {
-        "name": "High Conga",
+        "name": "HighConga",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2136,7 +2136,7 @@
         "dataFormat": ""
     },
     {
-        "name": "High Hat",
+        "name": "HighHat",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2147,14 +2147,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "High Tom",
+        "name": "HighTom",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/d623f99b3c8d33932eb2c6c9cfd817c5.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "High Whoosh",
+        "name": "HighWhoosh",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2164,7 +2164,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Hihat Beatbox",
+        "name": "HihatBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [
             "human",
@@ -2176,14 +2176,14 @@
         "dataFormat": ""
     },
     {
-        "name": "Hihat Cymbal",
+        "name": "HihatCymbal",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/2d01f60d0f20ab39facbf707899c6b2a.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Hip Hop",
+        "name": "HipHop",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2204,14 +2204,14 @@
         "dataFormat": ""
     },
     {
-        "name": "Horse Gallop",
+        "name": "HorseGallop",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/058a34b5fb8b57178b5322d994b6b8c8.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Human Beatbox1",
+        "name": "HumanBeatbox1",
         "creater": "Scratch-Foundation",
         "tags": [
             "human",
@@ -2224,7 +2224,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Human Beatbox2",
+        "name": "HumanBeatbox2",
         "creater": "Scratch-Foundation",
         "tags": [
             "human",
@@ -2259,7 +2259,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Jungle Frogs",
+        "name": "JungleFrogs",
         "creater": "Scratch-Foundation",
         "tags": [
             "animals",
@@ -2271,7 +2271,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Kick Back",
+        "name": "KickBack",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2282,7 +2282,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Kick Drum",
+        "name": "KickDrum",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2293,7 +2293,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Large Cowbell",
+        "name": "LargeCowbell",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2348,7 +2348,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Lo Geh Tabla",
+        "name": "LoGehTabla",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2359,7 +2359,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Lo Gliss Tabla",
+        "name": "LoGlissTabla",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2381,7 +2381,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Low Boing",
+        "name": "LowBoing",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -2390,7 +2390,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Low Conga",
+        "name": "LowConga",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2401,7 +2401,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Low Squeak",
+        "name": "LowSqueak",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -2410,14 +2410,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Low Tom",
+        "name": "LowTom",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/1569bbbd8952b0575e5a5cb5aefb50ba.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Low Whoosh",
+        "name": "LowWhoosh",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2436,7 +2436,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Magic Spell",
+        "name": "MagicSpell",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2498,7 +2498,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Motorcycle Passing",
+        "name": "MotorcyclePassing",
         "creater": "Scratch-Foundation",
         "tags": [
             "transportation",
@@ -2509,7 +2509,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Movie 1",
+        "name": "Movie1",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -2520,7 +2520,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Movie 2",
+        "name": "Movie2",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -2531,7 +2531,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Muted Conga",
+        "name": "MutedConga",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -2553,7 +2553,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Ocean Wave",
+        "name": "OceanWave",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2586,7 +2586,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Orchestra Tuning",
+        "name": "OrchestraTuning",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2605,7 +2605,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Party Noise",
+        "name": "PartyNoise",
         "creater": "Scratch-Foundation",
         "tags": [
             "human",
@@ -2628,7 +2628,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Ping Pong Hit",
+        "name": "PingPongHit",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports"
@@ -2659,7 +2659,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Police Siren",
+        "name": "PoliceSiren",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -2694,7 +2694,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Referee Whistle",
+        "name": "RefereeWhistle",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports"
@@ -2723,7 +2723,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Ride Cymbal",
+        "name": "RideCymbal",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2734,7 +2734,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Ring Tone",
+        "name": "RingTone",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2764,7 +2764,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Roll Cymbal",
+        "name": "RollCymbal",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/da8355d753cd2a5ddd19cb2bb41c1547.wav/get",
@@ -2778,7 +2778,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Scrambling Feet",
+        "name": "ScramblingFeet",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -2789,14 +2789,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Scratch Beatbox",
+        "name": "ScratchBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/859249563a7b1fc0f6e92e36d1db81c7.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Scratchy Beat",
+        "name": "ScratchyBeat",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2847,7 +2847,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Sewing Machine",
+        "name": "SewingMachine",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2867,7 +2867,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Ship Bell",
+        "name": "ShipBell",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -2877,7 +2877,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Sidestick Snare",
+        "name": "SidestickSnare",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/f6868ee5cf626fc4ef3ca1119dc95592.wav/get",
@@ -2908,7 +2908,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Siren Whistle",
+        "name": "SirenWhistle",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -2930,7 +2930,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Slide Whistle",
+        "name": "SlideWhistle",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -2941,7 +2941,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Small Cowbell",
+        "name": "SmallCowbell",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2963,21 +2963,21 @@
         "dataFormat": ""
     },
     {
-        "name": "Snare Beatbox",
+        "name": "SnareBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/c642c4c00135d890998f351faec55498.wav/get",
         "dataFormat": "adpcm"
     },
     {
-        "name": "Snare Beatbox2",
+        "name": "SnareBeatbox2",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/7ede1382b578d8fc32850b48d082d914.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Snare Drum",
+        "name": "SnareDrum",
         "creater": "Scratch-Foundation",
         "tags": [
             "music",
@@ -2988,7 +2988,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Sneaker Squeak",
+        "name": "SneakerSqueak",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -3040,7 +3040,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Space Ambience",
+        "name": "SpaceAmbience",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3052,7 +3052,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Space Flyby",
+        "name": "SpaceFlyby",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3064,7 +3064,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Space Noise",
+        "name": "SpaceNoise",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3076,7 +3076,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Space Ripple",
+        "name": "SpaceRipple",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/ff8b8c3bf841a11fd5fe3afaa92be1b5.wav/get",
@@ -3104,14 +3104,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Splash Cymbal",
+        "name": "SplashCymbal",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/9d63ed5be96c43b06492e8b4a9cea8d8.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Spooky String",
+        "name": "SpookyString",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3141,7 +3141,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Squeaky Toy",
+        "name": "SqueakyToy",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -3153,7 +3153,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Squish Pop",
+        "name": "SquishPop",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -3164,7 +3164,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "String Accent",
+        "name": "StringAccent",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3174,7 +3174,7 @@
         "dataFormat": ""
     },
     {
-        "name": "String Pluck",
+        "name": "StringPluck",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3185,7 +3185,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Suction Cup",
+        "name": "SuctionCup",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -3228,7 +3228,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Tap Conga",
+        "name": "TapConga",
         "creater": "Scratch-Foundation",
         "tags": [
             "drums",
@@ -3239,7 +3239,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Tap Snare",
+        "name": "TapSnare",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/d55b3954d72c6275917f375e49b502f3.wav/get",
@@ -3268,7 +3268,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Telephone Ring",
+        "name": "TelephoneRing",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3278,7 +3278,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Telephone Ring2",
+        "name": "TelephoneRing2",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3324,7 +3324,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Tennis Hit",
+        "name": "TennisHit",
         "creater": "Scratch-Foundation",
         "tags": [
             "sports",
@@ -3334,7 +3334,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Thunder Storm",
+        "name": "ThunderStorm",
         "creater": "Scratch-Foundation",
         "tags": [
             "weather",
@@ -3347,7 +3347,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Tom Drum",
+        "name": "TomDrum",
         "creater": "Scratch-Foundation",
         "tags": [
             "percussion",
@@ -3358,7 +3358,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Toy Honk",
+        "name": "ToyHonk",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -3369,7 +3369,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Toy Zing",
+        "name": "ToyZing",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -3390,7 +3390,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Train Whistle",
+        "name": "TrainWhistle",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects",
@@ -3400,7 +3400,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Trap Beat",
+        "name": "TrapBeat",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -3424,7 +3424,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Tropical Birds",
+        "name": "TropicalBirds",
         "creater": "Scratch-Foundation",
         "tags": [
             "animals",
@@ -3457,7 +3457,7 @@
         "dataFormat": ""
     },
     {
-        "name": "Video Game 1",
+        "name": "VideoGame1",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -3470,7 +3470,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Video Game 2",
+        "name": "VideoGame2",
         "creater": "Scratch-Foundation",
         "tags": [
             "loops",
@@ -3482,7 +3482,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Wah Beatbox",
+        "name": "WahBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/9021b7bb06f2399f18e2db4fb87095dc.wav/get",
@@ -3499,7 +3499,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Water Drop",
+        "name": "WaterDrop",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -3518,7 +3518,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Whistle Thump",
+        "name": "WhistleThump",
         "creater": "Scratch-Foundation",
         "tags": [
             "wacky",
@@ -3573,14 +3573,14 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Wolf Howl",
+        "name": "WolfHowl",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/5e36d74bb16aa5085b901362788b0fbf.wav/get",
         "dataFormat": ""
     },
     {
-        "name": "Wood Tap",
+        "name": "WoodTap",
         "creater": "Scratch-Foundation",
         "tags": [
             "effects"
@@ -3589,7 +3589,7 @@
         "dataFormat": "adpcm"
     },
     {
-        "name": "Wub Beatbox",
+        "name": "WubBeatbox",
         "creater": "Scratch-Foundation",
         "tags": [],
         "url": "https://cdn.assets.scratch.mit.edu/internalapi/asset/e1f32c057411da4237181ce72ae15d23.wav/get",
