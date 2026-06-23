@@ -70,6 +70,7 @@ const css = `
     }
     img.thumbnail {
         opacity: 1.0;
+        padding-bottom: 20px;
     }
     .play-element {
         position:relative;
@@ -100,7 +101,7 @@ const css = `
     }
     .elem-name {
         position: absolute;
-        top: 100px;
+        top: 115px;
         font-size: 0.8rem;  
     }
 `;
@@ -246,7 +247,7 @@ export class Gui {
     }
     static viewFirst(): void {
         const typePull = document.querySelector('#typePull') as HTMLSelectElement;
-        typePull.selectedIndex = 1; // Coustume;
+        typePull.selectedIndex = 0; // Coustume;
         Gui.viewCostumes();
 
     }
@@ -261,8 +262,11 @@ export class Gui {
     }
     static addCostume(costume:JsonElement): void {
         const containerInner = document.querySelector('#containerInner');
+        const elemDivOuter = document.createElement('div');
+        elemDivOuter.classList.add('play-element');
+        containerInner?.appendChild(elemDivOuter);
         const elemDiv = document.createElement('div');
-        containerInner?.appendChild(elemDiv);
+        elemDivOuter?.appendChild(elemDiv);
         elemDiv.classList.add('element');
         elemDiv.classList.add('border');
         elemDiv.classList.add('lazy-load');
@@ -272,25 +276,36 @@ export class Gui {
         image.setAttribute('data-src', costume.url);
         image.setAttribute('height', '100px');
         elemDiv.appendChild(image);
+        const p = document.createElement('p') as HTMLParagraphElement;
+        elemDivOuter.appendChild(p);
+        p.classList.add('elem-name');
+        p.innerText = costume.name;
     }
     static viewBackdrops(): void {
         for(const element of backdropsJson) {
             Gui.addBackdrop(element);
         }
     }
-    static addBackdrop(costume:JsonElement): void {
+    static addBackdrop(background:JsonElement): void {
         const containerInner = document.querySelector('#containerInner');
+        const elemDivOuter = document.createElement('div');
+        elemDivOuter.classList.add('play-element');
+        containerInner?.appendChild(elemDivOuter);
         const elemDiv = document.createElement('div');
-        containerInner?.appendChild(elemDiv);
+        elemDivOuter.appendChild(elemDiv);
         elemDiv.classList.add('element');
         elemDiv.classList.add('border');
         elemDiv.classList.add('lazy-load');
         const image = document.createElement('img') as HTMLImageElement;
         image.classList.add('thumbnail')
         image.src = loadingGif;
-        image.setAttribute('data-src', costume.url);
+        image.setAttribute('data-src', background.url);
         image.setAttribute('height', '100px');
         elemDiv.appendChild(image);
+        const p = document.createElement('p') as HTMLParagraphElement;
+        elemDivOuter.appendChild(p);
+        p.classList.add('elem-name');
+        p.innerText = background.name;
     }
     static async viewAudios(): Promise<void> {
         for(const element of soundsJson) {
