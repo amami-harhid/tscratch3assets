@@ -25,8 +25,7 @@ const css = `
         scrollbar-gutter: stable; /* .containerスクロールバー表示幅によるレイアウト崩れを防止する */
     }
     img:hover {
-        opacity: 1 !important;
-        filter: none !important;
+        pointer-events: none;
     }    
     .border {
         border: 1px solid black;
@@ -176,6 +175,10 @@ const css = `
         align-items: center;
         border-radius: 8px;
         border: 1px solid #505050;
+    }
+    img.soundImage:hover {
+
+        color:red;
     }
     .modalImageInfoDiv {
         text-align: center;
@@ -455,11 +458,7 @@ export class Gui {
             const _imageInfoDiv = document.createElement('div') as HTMLDivElement;
             _imageInfoDiv.classList.add('modalImageInfoDiv')
             modalContentInner.appendChild(_imageInfoDiv);
-            //_imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span><span>${costume.name}</span><br/><span style='font-size:1.2rem;'>URL</span><span>${costume.url}</span>`;
-            // const _nameButton = document.createElement('button') as HTMLButtonElement;
-            // _nameButton.innerText = 'Copy→';
-            // _imageInfoDiv.appendChild(_nameButton);
-            // _nameButton.style = 'font-size:0.8rem;margin-right:10px;';
+
             const _nameValueDiv = document.createElement('div') as HTMLDivElement;
             _nameValueDiv.style = 'font-size:1.2rem;';
             _nameValueDiv.innerText = imageElement.name;
@@ -468,12 +467,6 @@ export class Gui {
                 clipboard(imageElement.name);
             }) 
 
-            // const _br = document.createElement('br');
-            // _imageInfoDiv.appendChild(_br);
-            // const _urlButton = document.createElement('button') as HTMLButtonElement;
-            // _urlButton.innerText = 'Copy→';
-            // _urlButton.style = 'font-size:0.8rem;margin-right:10px;';
-            // _imageInfoDiv.appendChild(_urlButton);
             const _urlValueDiv = document.createElement('div') as HTMLDivElement;
             _urlValueDiv.style = 'margin-top:10px;';
             _urlValueDiv.addEventListener('click', ()=>{
@@ -552,15 +545,15 @@ export class Gui {
             const modalOverlay = document.querySelector('#modalOverlayElem') as HTMLDivElement;
             const modalContentInner = modalOverlay.querySelector('#modalContentInnerElem') as HTMLDivElement;
             const _soundDiv = document.createElement('div') as HTMLDivElement;
-            _soundDiv.classList.add('modalImageDiv')
+            _soundDiv.classList.add('modalImageDiv');
             modalContentInner.appendChild(_soundDiv);
             const _soundDivInner = document.createElement('div');
             _soundDivInner.classList.add('modalImageDivInner')
+            _soundDivInner.style = 'position:relative;';
             _soundDiv.appendChild(_soundDivInner);
             const _soundInfoDiv = document.createElement('div') as HTMLDivElement;
             _soundInfoDiv.classList.add('modalImageInfoDiv');
             modalContentInner.appendChild(_soundInfoDiv);
-            //_soundInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span><span>${sound.name}</span><br/><span style='font-size:1.2rem;'>URL</span><span>${sound.url}</span>`;
 
             const _soundName = document.createElement('div') as HTMLDivElement;
             _soundName.style = 'font-size:1.2rem;';
@@ -577,15 +570,24 @@ export class Gui {
                 clipboard(sound.url);
             });
             const _image = document.createElement('img') as HTMLImageElement;
+            _image.classList.add('soundImage');
             _image.setAttribute('oncontextmenu', 'return false;');
 
             _image.src = SoundSvgData;
             _image.setAttribute('height', '150px');
             _soundDivInner.appendChild(_image);  
-            _image.addEventListener('mouseenter', ()=>{
+            const _control = document.createElement('div');
+            _control.classList.add('play-button');
+            _soundDivInner.appendChild(_control);
+            _control.style = 'position:absolute; top:2px;';
+            const _playMark = document.createElement('img') as HTMLImageElement;
+            _playMark.setAttribute('width', '50%');
+            _control.appendChild(_playMark);
+            _playMark.src = SoundPlayData;
+            _control.addEventListener('mouseenter', ()=>{
                 sounder.play();
             });
-            _image.addEventListener('mouseleave', ()=>{
+            _control.addEventListener('mouseleave', ()=>{
                 sounder.stop();
             })
             if(modalOverlay)
