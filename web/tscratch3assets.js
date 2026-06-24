@@ -2044,6 +2044,8 @@ const Ga = (I, e = 3e3) => {
 }, Ta = "Scratch3 アセット一覧", Ha = `
     html, body {
         height: 100%;
+        overflow: hidden;
+        scrollbar-gutter: stable; /* .containerスクロールバー表示幅によるレイアウト崩れを防止する */
     }
     .border {
         border: 1px solid black;
@@ -2075,6 +2077,8 @@ const Ga = (I, e = 3e3) => {
         top: 50;
         width:100%;
         height:100%;
+        overflow-y: auto;
+        scrollbar-gutter: stable; /* スクロールバー表示幅によるレイアウト崩れを防止する */
     }
     div.container_inner {
         position: relative;

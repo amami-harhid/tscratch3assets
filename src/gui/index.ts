@@ -20,6 +20,8 @@ const TITLE = 'Scratch3 アセット一覧';
 const css = `
     html, body {
         height: 100%;
+        overflow: hidden;
+        scrollbar-gutter: stable; /* .containerスクロールバー表示幅によるレイアウト崩れを防止する */
     }
     .border {
         border: 1px solid black;
@@ -51,6 +53,8 @@ const css = `
         top: 50;
         width:100%;
         height:100%;
+        overflow-y: auto;
+        scrollbar-gutter: stable; /* スクロールバー表示幅によるレイアウト崩れを防止する */
     }
     div.container_inner {
         position: relative;
