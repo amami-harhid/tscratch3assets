@@ -37,9 +37,6 @@ const css = `
         background-color:#fea0a0;
         align-items: center;
     }
-    div.header > div {
-        margin-left: 10px;
-    }
     div.typeDiv {
         display: flex;
         padding-left:clamp(1vw, 2vw, 2vw);
@@ -51,9 +48,16 @@ const css = `
     .radius10 {
         border-radius: 5px;    
     }
-    .license {
+    div.license {
+        margin-left: auto !important;
+        margin-right: 10px;
+    }
+    button.license {
         border: none; /*1px solid black;*/
         width: 6rem;
+    }
+    div.header > div {
+        margin-left: 10px;
     }
     div.hidden {
         visibility: hidden;
@@ -180,6 +184,13 @@ const css = `
     .responsive-text {
         font-size: clamp(10px, 2.0vw, 20px);
     }
+    img {
+        /* ドラッグでの保存や選択を禁止 */
+        -webkit-user-drag: none;
+        user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
 `;
 
 interface JsonElement {
@@ -265,7 +276,7 @@ export class Gui {
             modalContent.id = 'modalContent';
             const modalTitle = document.createElement('div') as HTMLParagraphElement;
             modalContent.appendChild(modalTitle);
-            modalTitle.innerHTML = '<h1>Scratch3に関わるライセンス(License)</h1>';
+            modalTitle.innerHTML = '<h1>このWEBアプリに関するお知らせ</h1>';
             modalOverlay.addEventListener('click', (event:Event)=>{
                 if(event.target === modalOverlay){
                     modalOverlay.style.display = 'none';
@@ -358,6 +369,7 @@ export class Gui {
         }
 
         const licenseDiv = document.createElement('div') as HTMLDivElement;
+        licenseDiv.classList.add('license');
         header?.appendChild(licenseDiv);
         const licenseButton = document.createElement('button') as HTMLButtonElement;
         licenseButton.classList.add('responsive-text');
@@ -416,6 +428,7 @@ export class Gui {
         elemDiv.classList.add('border');
         elemDiv.classList.add('lazy-load');
         const image = document.createElement('img') as HTMLImageElement;
+        image.setAttribute('oncontextmenu', 'return false;');
         image.classList.add('thumbnail');
         image.src = loadingGif;
         image.setAttribute('data-src', imageElement.url);
@@ -466,6 +479,7 @@ export class Gui {
             _imageInfoDiv.appendChild(_urlValueDiv);
 
             const _image = document.createElement('img') as HTMLImageElement;
+            _image.setAttribute('oncontextmenu', 'return false;');
             _image.onload = ()=>{
                 if(_image.width < _image.height){
                     _image.setAttribute('height', '150px');
@@ -502,6 +516,7 @@ export class Gui {
         elemDiv.classList.add('border');
         elemDiv.classList.add('lazy-load');
         const image = document.createElement('img') as HTMLImageElement;
+        image.setAttribute('oncontextmenu', 'return false;');
         image.src = SoundSvgData;
         image.setAttribute('height', '100px');
         elemDiv.appendChild(image);
@@ -510,6 +525,7 @@ export class Gui {
         elemDivOuter.appendChild(control);
         control.classList.add('play-button');
         const playMark = document.createElement('img') as HTMLImageElement;
+        playMark.setAttribute('oncontextmenu', 'return false;');
         playMark.src = SoundPlayData;
         control.appendChild(playMark);
         playMark.setAttribute('width', '50%');
@@ -557,6 +573,8 @@ export class Gui {
                 clipboard(sound.url);
             });
             const _image = document.createElement('img') as HTMLImageElement;
+            _image.setAttribute('oncontextmenu', 'return false;');
+
             _image.src = SoundSvgData;
             _image.setAttribute('height', '150px');
             _soundDivInner.appendChild(_image);  
