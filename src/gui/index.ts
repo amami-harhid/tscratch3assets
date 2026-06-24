@@ -24,6 +24,10 @@ const css = `
         overflow: hidden;
         scrollbar-gutter: stable; /* .containerスクロールバー表示幅によるレイアウト崩れを防止する */
     }
+    img:hover {
+        opacity: 1 !important;
+        filter: none !important;
+    }    
     .border {
         border: 1px solid black;
         border-radius: 10px;
