@@ -4,6 +4,9 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import { glob } from 'glob'
+import pkg from './package.json';
+
+const name = pkg.name;
 
 // ルートとするディレクトリー
 const root = resolve(__dirname, './src/')
@@ -49,5 +52,5 @@ export default defineConfig({
         }
     },
     root: resolve(__dirname, './src'),
-    base: "tscratch3assets/web/",
+    base: `${name}/web/`,
 })
