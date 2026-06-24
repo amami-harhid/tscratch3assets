@@ -49,5 +49,5 @@ export default defineConfig({
         }
     },
     root: resolve(__dirname, './src'),
-    base: "/web/",
+    base: "tscratch3assets/web/",
 })
