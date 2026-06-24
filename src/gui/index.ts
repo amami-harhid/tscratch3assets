@@ -145,6 +145,21 @@ const css = `
         align-items: center;
         font-size: 0.8rem;  
     }
+    div.modalImageDivInner {
+        display: flex;
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #505050;
+    }
+    .modalImageInfoDiv {
+        text-align: left;
+    }
+    .modalImageInfoDiv > span {
+        overflow-wrap: anywhere;
+        margin-right: 20px;
+    }
 `;
 
 interface JsonElement {
@@ -271,6 +286,9 @@ export class Gui {
     }
     static addHeaderControl(): void {
         const header = document.querySelector('#header');
+        const pageTitle = document.createElement('p') as HTMLParagraphElement;
+        pageTitle.innerHTML = '<p style="margin-left:10px;font-size:1.2rem;">Scratch3 アセット一覧</p>';
+        header?.appendChild(pageTitle);
         const typePullDiv = document.createElement('div');
         header?.appendChild(typePullDiv);
         typePullDiv.classList.add('typeDiv');
@@ -388,10 +406,13 @@ export class Gui {
             const _imageDiv = document.createElement('div') as HTMLDivElement;
             _imageDiv.classList.add('modalImageDiv')
             modalContentInner.appendChild(_imageDiv);
+            const _imageDivInner = document.createElement('div') as HTMLDivElement;
+            _imageDivInner.classList.add('modalImageDivInner');
+            _imageDiv.appendChild(_imageDivInner);
             const _imageInfoDiv = document.createElement('div') as HTMLDivElement;
             _imageInfoDiv.classList.add('modalImageInfoDiv')
             modalContentInner.appendChild(_imageInfoDiv);
-            _imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span>&nbsp;:&nbsp;<span>${costume.name}</span><br/><span style='font-size:1.2rem;'>URL</span>&nbsp;:&nbsp;<span>${costume.url}</span>`;
+            _imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span><span>${costume.name}</span><br/><span style='font-size:1.2rem;'>URL</span><span>${costume.url}</span>`;
 
             const _image = document.createElement('img') as HTMLImageElement;
             _image.onload = ()=>{
@@ -402,7 +423,7 @@ export class Gui {
                 }
             }
             _image.src = costume.url;
-            _imageDiv.appendChild(_image);  
+            _imageDivInner.appendChild(_image);  
             
             if(modalOverlay)
                 modalOverlay.style.display = 'flex';
@@ -462,15 +483,18 @@ export class Gui {
             const _imageDiv = document.createElement('div') as HTMLDivElement;
             _imageDiv.classList.add('modalImageDiv')
             modalContentInner.appendChild(_imageDiv);
+            const _imageDivInner = document.createElement('div');
+            _imageDivInner.classList.add('modalImageDivInner')
+            _imageDiv.appendChild(_imageDivInner);
             const _imageInfoDiv = document.createElement('div') as HTMLDivElement;
             _imageInfoDiv.classList.add('modalImageInfoDiv')
             modalContentInner.appendChild(_imageInfoDiv);
-            _imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span>&nbsp;:&nbsp;<span>${sound.name}</span><br/><span style='font-size:1.2rem;'>URL</span>&nbsp;:&nbsp;<span>${sound.url}</span>`;
+            _imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span><span>${sound.name}</span><br/><span style='font-size:1.2rem;'>URL</span><span>${sound.url}</span>`;
 
             const _image = document.createElement('img') as HTMLImageElement;
             _image.src = SoundSvgData;
             _image.setAttribute('height', '150px');
-            _imageDiv.appendChild(_image);  
+            _imageDivInner.appendChild(_image);  
             _image.addEventListener('mouseenter', ()=>{
                 sounder.play();
             });
