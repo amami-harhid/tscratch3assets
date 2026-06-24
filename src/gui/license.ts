@@ -1,7 +1,7 @@
-type LisenceContext = {title:string, text:string}[];
-export const lisence = (modalContext: HTMLDivElement): void =>{
+type LicenseContext = {title:string, text:string}[];
+export const license = (modalContext: HTMLDivElement): void =>{
 
-    const lisenceContext:LisenceContext = [
+    const licenseContext:LicenseContext = [
         {title: '', text:'A web application for browsing and accessing images and sounds from the Scratch editor asset library.<br/>Scratchエディタで使用されている画像・音素材をブラウズできるWebアプリです。'},
         {title:'1.⚠️ Disclaimer (免責事項)', text: 'This project is <b>NOT affiliated with, endorsed by, or officially connected to the Scratch Foundation</b>.<br/>本プロジェクトは<b>Scratch Foundationとは一切関係ありません(非公式)</b>。<br/>提携・承認・公式プロジェクトではありません。' },
         {title:'2.📦 Features (主な機能)', text: '<ul><li>Browse Scratch images (costumes, backdrops): --Scratchの画像（コスチューム・背景）の閲覧</li><li>Play Scratch sounds: --Scratchの音声の再生</li><li>Get direct asset URLs: --素材URLの取得</li><li>Simple and fast interface: --シンプルなUI</li></ul>' },
@@ -25,7 +25,7 @@ export const lisence = (modalContext: HTMLDivElement): void =>{
         {title:'', text: '<ul><li>CC BY-SA 2.0（素材）</li><li>AGPL-3.0（コード）</li></ul>' },
         {title:'9.✉️ Contact (連絡先)', text: '[@Amami-harhid](https://github.com/amami-harhid)' },
     ];
-    for(const elem of lisenceContext){
+    for(const elem of licenseContext){
         if(elem.title){
             const h2 = document.createElement('h2') as HTMLHeadingElement;
             h2.innerHTML = elem.title

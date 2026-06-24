@@ -8,7 +8,7 @@ import audioBufferToWav from 'audiobuffer-to-wav';
 import { loadingGif } from './loadingGif';
 import { Timer } from './timer';
 import { Sound } from './sound';
-import { lisence } from './lisence';
+import { license } from './license';
 import { clipboard } from './clipboard';
 
 declare global {
@@ -17,6 +17,7 @@ declare global {
   }
 }
 const TITLE = 'Scratch3 アセット一覧';
+const APP = '説明';
 const css = `
     html, body {
         height: 100%;
@@ -43,6 +44,16 @@ const css = `
         display: flex;
         padding-left:clamp(1vw, 2vw, 2vw);
         align-items: center;
+    }
+    .pullDown {
+        border: none; /*1px solid black;*/    
+    }
+    .radius10 {
+        border-radius: 5px;    
+    }
+    .license {
+        border: none; /*1px solid black;*/
+        width: 6rem;
     }
     div.hidden {
         visibility: hidden;
@@ -263,7 +274,7 @@ export class Gui {
             const modalContentInner = document.createElement('div') as HTMLDivElement;
             modalContentInner.id = 'modalContentInner';
             modalContent.appendChild(modalContentInner);
-            lisence(modalContentInner);
+            license(modalContentInner);
         }
         // モーダル２
         if(body){
@@ -304,6 +315,8 @@ export class Gui {
         //typePullDiv.classList.add('fit');
         const typePull = document.createElement('select') as HTMLSelectElement;
         typePull.classList.add('responsive-text');
+        typePull.classList.add('pullDown');
+        typePull.classList.add('radius10');
         typePull.id = 'typePull';
         typePull.addEventListener('change', (event: Event)=>{
             if(event.currentTarget){
@@ -348,7 +361,9 @@ export class Gui {
         header?.appendChild(licenseDiv);
         const licenseButton = document.createElement('button') as HTMLButtonElement;
         licenseButton.classList.add('responsive-text');
-        licenseButton.innerText = 'Scratch3-License';
+        licenseButton.classList.add('license');
+        licenseButton.classList.add('radius10');
+        licenseButton.innerText = `${APP}`;
         licenseDiv.appendChild(licenseButton);
         licenseButton.addEventListener('click', ()=>{
             const modalOverlay = document.querySelector('#modalOverlay') as HTMLDivElement;

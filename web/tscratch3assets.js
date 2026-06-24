@@ -2041,7 +2041,7 @@ const Ga = (I, e = 3e3) => {
   } catch {
     e.show("コピー失敗");
   }
-}, Ta = "Scratch3 アセット一覧", Ha = `
+}, Ta = "Scratch3 アセット一覧", Ha = "説明", Pa = `
     html, body {
         height: 100%;
         overflow: hidden;
@@ -2067,6 +2067,16 @@ const Ga = (I, e = 3e3) => {
         display: flex;
         padding-left:clamp(1vw, 2vw, 2vw);
         align-items: center;
+    }
+    .pullDown {
+        border: none; /*1px solid black;*/    
+    }
+    .radius10 {
+        border-radius: 5px;    
+    }
+    .license {
+        border: none; /*1px solid black;*/
+        width: 6rem;
     }
     div.hidden {
         visibility: hidden;
@@ -2222,7 +2232,7 @@ class b {
   }
   static createLayout() {
     const e = document.createElement("style");
-    e.innerHTML = Ha, document.getElementsByTagName("head")[0].appendChild(e);
+    e.innerHTML = Pa, document.getElementsByTagName("head")[0].appendChild(e);
     const g = document.querySelector("body"), a = document.createElement("div");
     a.id = "header", a.classList.add("header"), a.classList.add("border"), g?.appendChild(a), b.addHeaderControl();
     const t = document.createElement("div");
@@ -2266,7 +2276,7 @@ class b {
     const g = document.createElement("div");
     e?.appendChild(g), g.classList.add("typeDiv");
     const a = document.createElement("select");
-    a.classList.add("responsive-text"), a.id = "typePull", a.addEventListener("change", (B) => {
+    a.classList.add("responsive-text"), a.classList.add("pullDown"), a.classList.add("radius10"), a.id = "typePull", a.addEventListener("change", (B) => {
       if (B.currentTarget) {
         const Q = document.querySelector("#containerInner");
         Q?.querySelectorAll("div").forEach((i) => {
@@ -2292,7 +2302,7 @@ class b {
     const t = document.createElement("div");
     e?.appendChild(t);
     const C = document.createElement("button");
-    C.classList.add("responsive-text"), C.innerText = "Scratch3-License", t.appendChild(C), C.addEventListener("click", () => {
+    C.classList.add("responsive-text"), C.classList.add("license"), C.classList.add("radius10"), C.innerText = `${Ha}`, t.appendChild(C), C.addEventListener("click", () => {
       const B = document.querySelector("#modalOverlay");
       B && (B.style.display = "flex");
     });
