@@ -3,7 +3,7 @@
  */
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
-import glob from 'glob'
+import { glob } from 'glob'
 
 // ルートとするディレクトリー
 const root = resolve(__dirname, './src/')
@@ -21,7 +21,7 @@ for(const target of targetDir){
 }
 console.log(rollupOpsionsInput);
 // ビルド結果を出力する先
-const outDir = resolve(__dirname, 'build');
+const outDir = resolve(__dirname, 'web');
 
 export default defineConfig({
     build: {
@@ -49,4 +49,5 @@ export default defineConfig({
         }
     },
     root: resolve(__dirname, './src'),
+    base: "/web/",
 })

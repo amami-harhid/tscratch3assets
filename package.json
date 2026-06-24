@@ -12,12 +12,13 @@
   },
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build --config ./vite.config-build.js --emptyOutDir"
+    "build": "vite build --config ./vite.config.build.js --emptyOutDir"
   },
   "devDependencies": {
     "@types/audiobuffer-to-wav": "^1.0.4",
+    "@types/glob": "^8.1.0",
     "@types/node": "^26.0.0",
-    "glob": "^13.0.6",
+    "glob": "^10.5.0",
     "typescript": "^6.0.3",
     "vite": "^6.2.3"
   },
