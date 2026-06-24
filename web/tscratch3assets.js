@@ -2041,7 +2041,7 @@ const Ga = (I, e = 3e3) => {
   } catch {
     e.show("コピー失敗");
   }
-}, Ta = `
+}, Ta = "Scratch3 アセット一覧", Ha = `
     html, body {
         height: 100%;
     }
@@ -2059,11 +2059,11 @@ const Ga = (I, e = 3e3) => {
         align-items: center;
     }
     div.header > div {
-        margin-left: 30px;
+        margin-left: 10px;
     }
     div.typeDiv {
         display: flex;
-        padding-left:10px;
+        padding-left:clamp(1vw, 2vw, 2vw);
         align-items: center;
     }
     div.hidden {
@@ -2150,7 +2150,7 @@ const Ga = (I, e = 3e3) => {
         background: #fff;
         padding: 20px;
         border-radius: 8px;
-        width: 80%;
+        width: fit-content;
         height:50%;
         overflow:auto;
         text-align: center;
@@ -2180,10 +2180,14 @@ const Ga = (I, e = 3e3) => {
     }
     .modalImageInfoDiv {
         text-align: center;
+        
     }
-    .modalImageInfoDiv > span {
+    .modalImageInfoDiv > div {
         overflow-wrap: anywhere;
         margin-right: 20px;
+    }
+    .responsive-text {
+        font-size: clamp(10px, 2.0vw, 20px);
     }
 `;
 class b {
@@ -2214,7 +2218,7 @@ class b {
   }
   static createLayout() {
     const e = document.createElement("style");
-    e.innerHTML = Ta, document.getElementsByTagName("head")[0].appendChild(e);
+    e.innerHTML = Ha, document.getElementsByTagName("head")[0].appendChild(e);
     const g = document.querySelector("body"), a = document.createElement("div");
     a.id = "header", a.classList.add("header"), a.classList.add("border"), g?.appendChild(a), b.addHeaderControl();
     const t = document.createElement("div");
@@ -2254,11 +2258,11 @@ class b {
   }
   static addHeaderControl() {
     const e = document.querySelector("#header"), A = document.createElement("p");
-    A.innerHTML = '<p style="margin-left:10px;font-size:1.2rem;">Scratch3 アセット一覧</p>', e?.appendChild(A);
+    A.innerHTML = `<p style="margin-left:10px;" class="responsive-text">${Ta}</p>`, e?.appendChild(A);
     const g = document.createElement("div");
     e?.appendChild(g), g.classList.add("typeDiv");
     const a = document.createElement("select");
-    a.id = "typePull", a.addEventListener("change", (B) => {
+    a.classList.add("responsive-text"), a.id = "typePull", a.addEventListener("change", (B) => {
       if (B.currentTarget) {
         const Q = document.querySelector("#containerInner");
         Q?.querySelectorAll("div").forEach((i) => {
@@ -2284,7 +2288,7 @@ class b {
     const t = document.createElement("div");
     e?.appendChild(t);
     const C = document.createElement("button");
-    C.innerText = "Scratch3-License", t.appendChild(C), C.addEventListener("click", () => {
+    C.classList.add("responsive-text"), C.innerText = "Scratch3-License", t.appendChild(C), C.addEventListener("click", () => {
       const B = document.querySelector("#modalOverlay");
       B && (B.style.display = "flex");
     });

@@ -16,7 +16,7 @@ declare global {
     webkitAudioContext?: typeof AudioContext;
   }
 }
-
+const TITLE = 'Scratch3 アセット一覧';
 const css = `
     html, body {
         height: 100%;
@@ -35,11 +35,11 @@ const css = `
         align-items: center;
     }
     div.header > div {
-        margin-left: 30px;
+        margin-left: 10px;
     }
     div.typeDiv {
         display: flex;
-        padding-left:10px;
+        padding-left:clamp(1vw, 2vw, 2vw);
         align-items: center;
     }
     div.hidden {
@@ -126,7 +126,7 @@ const css = `
         background: #fff;
         padding: 20px;
         border-radius: 8px;
-        width: 80%;
+        width: fit-content;
         height:50%;
         overflow:auto;
         text-align: center;
@@ -156,10 +156,14 @@ const css = `
     }
     .modalImageInfoDiv {
         text-align: center;
+        
     }
-    .modalImageInfoDiv > span {
+    .modalImageInfoDiv > div {
         overflow-wrap: anywhere;
         margin-right: 20px;
+    }
+    .responsive-text {
+        font-size: clamp(10px, 2.0vw, 20px);
     }
 `;
 
@@ -288,13 +292,14 @@ export class Gui {
     static addHeaderControl(): void {
         const header = document.querySelector('#header');
         const pageTitle = document.createElement('p') as HTMLParagraphElement;
-        pageTitle.innerHTML = '<p style="margin-left:10px;font-size:1.2rem;">Scratch3 アセット一覧</p>';
+        pageTitle.innerHTML = `<p style="margin-left:10px;" class="responsive-text">${TITLE}</p>`;
         header?.appendChild(pageTitle);
         const typePullDiv = document.createElement('div');
         header?.appendChild(typePullDiv);
         typePullDiv.classList.add('typeDiv');
         //typePullDiv.classList.add('fit');
         const typePull = document.createElement('select') as HTMLSelectElement;
+        typePull.classList.add('responsive-text');
         typePull.id = 'typePull';
         typePull.addEventListener('change', (event: Event)=>{
             if(event.currentTarget){
@@ -338,6 +343,7 @@ export class Gui {
         const licenseDiv = document.createElement('div') as HTMLDivElement;
         header?.appendChild(licenseDiv);
         const licenseButton = document.createElement('button') as HTMLButtonElement;
+        licenseButton.classList.add('responsive-text');
         licenseButton.innerText = 'Scratch3-License';
         licenseDiv.appendChild(licenseButton);
         licenseButton.addEventListener('click', ()=>{
