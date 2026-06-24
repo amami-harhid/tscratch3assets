@@ -8,6 +8,7 @@ import audioBufferToWav from 'audiobuffer-to-wav';
 import { loadingGif } from './loadingGif';
 import { Timer } from './timer';
 import { Sound } from './sound';
+import { lisence } from './lisence';
 
 declare global {
   interface Window {
@@ -31,6 +32,9 @@ const css = `
         width:100%;
         background-color:#fea0a0;
         align-items: center;
+    }
+    div.header > div {
+        margin-left: 30px;
     }
     div.typeDiv {
         display: flex;
@@ -102,6 +106,43 @@ const css = `
     .elem-name {
         position: absolute;
         top: 115px;
+        font-size: 0.8rem;  
+    }
+    #modalOverlay, #modalOverlayElem {
+        display: none;               /* JS で display:block にして表示 */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5); /* 半透明の黒背景 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* モーダル本体 */
+    #modalContent, #modalContentElem {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 80%;
+        height:50%;
+        overflow:auto;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    #modalContentInner, #modalContentInnerElem {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem; 
+    }
+    div.modalImageDiv {
+        display: flex;
+        width: 100%;
+        height: 180px;
+        justify-content: center;
+        align-items: center;
         font-size: 0.8rem;  
     }
 `;
@@ -179,6 +220,54 @@ export class Gui {
         containerInner.id = 'containerInner';
         container.appendChild(containerInner);
 
+        // モーダル
+        if(body){
+            const modalOverlay = document.createElement('div') as HTMLDivElement;
+            body.appendChild(modalOverlay);
+            modalOverlay.id = 'modalOverlay';
+            const modalContent = document.createElement('div') as HTMLDivElement;
+            modalOverlay.appendChild(modalContent);
+            modalContent.id = 'modalContent';
+            const modalTitle = document.createElement('div') as HTMLParagraphElement;
+            modalContent.appendChild(modalTitle);
+            modalTitle.innerHTML = '<h1>Scratch3に関わるライセンス(License)</h1>';
+            modalOverlay.addEventListener('click', (event:Event)=>{
+                if(event.target === modalOverlay){
+                    modalOverlay.style.display = 'none';
+                }
+            });
+            const modalContentInner = document.createElement('div') as HTMLDivElement;
+            modalContentInner.id = 'modalContentInner';
+            modalContent.appendChild(modalContentInner);
+            lisence(modalContentInner);
+        }
+        // モーダル２
+        if(body){
+            const modalOverlay = document.createElement('div') as HTMLDivElement;
+            body.appendChild(modalOverlay);
+            modalOverlay.id = 'modalOverlayElem';
+            const modalContent = document.createElement('div') as HTMLDivElement;
+            modalOverlay.appendChild(modalContent);
+            modalContent.id = 'modalContentElem';
+            const modalTitle = document.createElement('div') as HTMLParagraphElement;
+            modalContent.appendChild(modalTitle);
+            modalTitle.innerHTML = '<h1>アセット情報</h1>';
+            modalOverlay.addEventListener('click', (event:Event)=>{
+                if(event.target === modalOverlay){
+                    modalOverlay.style.display = 'none';
+                    const _modalContentInner = document.querySelector('#modalContentInnerElem') as HTMLDivElement;
+                    _modalContentInner?.querySelectorAll('div').forEach(div=>{
+                        const parent = div.parentElement;
+                        if(parent && parent.id == 'modalContentInnerElem')
+                            _modalContentInner.removeChild(div);
+                    });
+                }
+            });
+            const modalContentInner = document.createElement('div') as HTMLDivElement;
+            modalContentInner.id = 'modalContentInnerElem';
+            modalContent.appendChild(modalContentInner);
+        }
+
     }
     static addHeaderControl(): void {
         const header = document.querySelector('#header');
@@ -227,6 +316,18 @@ export class Gui {
             typePull.appendChild(option);            
         }
 
+        const licenseDiv = document.createElement('div') as HTMLDivElement;
+        header?.appendChild(licenseDiv);
+        const licenseButton = document.createElement('button') as HTMLButtonElement;
+        licenseButton.innerText = 'Scratch3-License';
+        licenseDiv.appendChild(licenseButton);
+        licenseButton.addEventListener('click', ()=>{
+            const modalOverlay = document.querySelector('#modalOverlay') as HTMLDivElement;
+            if(modalOverlay)
+                modalOverlay.style.display = 'flex';
+        });
+
+
     }
     static lazyLoad(): void {
         Gui.unLazyLoad();
@@ -257,10 +358,10 @@ export class Gui {
     }
     static viewCostumes(): void {
         for(const element of costumesJson) {
-            Gui.addCostume(element);
+            Gui.addImageElement(element);
         }
     }
-    static addCostume(costume:JsonElement): void {
+    static addImageElement(costume:JsonElement): void {
         const containerInner = document.querySelector('#containerInner');
         const elemDivOuter = document.createElement('div');
         elemDivOuter.classList.add('play-element');
@@ -280,32 +381,37 @@ export class Gui {
         elemDivOuter.appendChild(p);
         p.classList.add('elem-name');
         p.innerText = costume.name;
+
+        elemDiv.addEventListener('click', ()=>{
+            const modalOverlay = document.querySelector('#modalOverlayElem') as HTMLDivElement;
+            const modalContentInner = modalOverlay.querySelector('#modalContentInnerElem') as HTMLDivElement;
+            const _imageDiv = document.createElement('div') as HTMLDivElement;
+            _imageDiv.classList.add('modalImageDiv')
+            modalContentInner.appendChild(_imageDiv);
+            const _imageInfoDiv = document.createElement('div') as HTMLDivElement;
+            _imageInfoDiv.classList.add('modalImageInfoDiv')
+            modalContentInner.appendChild(_imageInfoDiv);
+            _imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span>&nbsp;:&nbsp;<span>${costume.name}</span><br/><span style='font-size:1.2rem;'>URL</span>&nbsp;:&nbsp;<span>${costume.url}</span>`;
+
+            const _image = document.createElement('img') as HTMLImageElement;
+            _image.onload = ()=>{
+                if(_image.width < _image.height){
+                    _image.setAttribute('height', '150px');
+                }else{
+                    _image.setAttribute('width', '150px');
+                }
+            }
+            _image.src = costume.url;
+            _imageDiv.appendChild(_image);  
+            
+            if(modalOverlay)
+                modalOverlay.style.display = 'flex';
+        })
     }
     static viewBackdrops(): void {
         for(const element of backdropsJson) {
-            Gui.addBackdrop(element);
+            Gui.addImageElement(element);
         }
-    }
-    static addBackdrop(background:JsonElement): void {
-        const containerInner = document.querySelector('#containerInner');
-        const elemDivOuter = document.createElement('div');
-        elemDivOuter.classList.add('play-element');
-        containerInner?.appendChild(elemDivOuter);
-        const elemDiv = document.createElement('div');
-        elemDivOuter.appendChild(elemDiv);
-        elemDiv.classList.add('element');
-        elemDiv.classList.add('border');
-        elemDiv.classList.add('lazy-load');
-        const image = document.createElement('img') as HTMLImageElement;
-        image.classList.add('thumbnail')
-        image.src = loadingGif;
-        image.setAttribute('data-src', background.url);
-        image.setAttribute('height', '100px');
-        elemDiv.appendChild(image);
-        const p = document.createElement('p') as HTMLParagraphElement;
-        elemDivOuter.appendChild(p);
-        p.classList.add('elem-name');
-        p.innerText = background.name;
     }
     static async viewAudios(): Promise<void> {
         for(const element of soundsJson) {
@@ -349,6 +455,35 @@ export class Gui {
         p.innerText = sound.name;
         const sounder = new Sound(sound.url);
         await sounder.makeSoundPlayer();
+
+        elemDiv.addEventListener('click', ()=>{
+            const modalOverlay = document.querySelector('#modalOverlayElem') as HTMLDivElement;
+            const modalContentInner = modalOverlay.querySelector('#modalContentInnerElem') as HTMLDivElement;
+            const _imageDiv = document.createElement('div') as HTMLDivElement;
+            _imageDiv.classList.add('modalImageDiv')
+            modalContentInner.appendChild(_imageDiv);
+            const _imageInfoDiv = document.createElement('div') as HTMLDivElement;
+            _imageInfoDiv.classList.add('modalImageInfoDiv')
+            modalContentInner.appendChild(_imageInfoDiv);
+            _imageInfoDiv.innerHTML = `<span style='font-size:1.2rem;'>Name</span>&nbsp;:&nbsp;<span>${sound.name}</span><br/><span style='font-size:1.2rem;'>URL</span>&nbsp;:&nbsp;<span>${sound.url}</span>`;
+
+            const _image = document.createElement('img') as HTMLImageElement;
+            _image.src = SoundSvgData;
+            _image.setAttribute('height', '150px');
+            _imageDiv.appendChild(_image);  
+            _image.addEventListener('mouseenter', ()=>{
+                sounder.play();
+            });
+            _image.addEventListener('mouseleave', ()=>{
+                sounder.stop();
+            })
+            if(modalOverlay)
+                modalOverlay.style.display = 'flex';
+
+
+
+        });
+        
     }
 
     static async convertToPCM(url:string): Promise<string> {
