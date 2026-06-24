@@ -2047,9 +2047,9 @@ const Ga = (I, e = 3e3) => {
         overflow: hidden;
         scrollbar-gutter: stable; /* .containerスクロールバー表示幅によるレイアウト崩れを防止する */
     }
-    img:hover {
+    img {
         pointer-events: none;
-    }    
+    }
     .border {
         border: 1px solid black;
         border-radius: 10px;
@@ -2142,7 +2142,7 @@ const Ga = (I, e = 3e3) => {
         background-color: hsla(300,53%,60%,1);
         color: hsla(0, 100%, 100%, 1);
         border-radius:50%;
-        
+        cursor: pointer;
     }
     .play-button {
         position: absolute;
@@ -2210,6 +2210,7 @@ const Ga = (I, e = 3e3) => {
     .modalImageInfoDiv > div {
         overflow-wrap: anywhere;
         margin-right: 20px;
+        cursor: pointer;
     }
     .responsive-text {
         font-size: clamp(10px, 2.0vw, 20px);
@@ -2408,7 +2409,7 @@ class b {
       const i = document.querySelector("#modalOverlayElem"), r = i.querySelector("#modalContentInnerElem"), h = document.createElement("div");
       h.classList.add("modalImageDiv"), r.appendChild(h);
       const l = document.createElement("div");
-      l.classList.add("modalImageDivInner"), l.style = "position:relative;", h.appendChild(l);
+      l.classList.add("modalImageDivInner"), l.style = "position:relative;height:180px;", h.appendChild(l);
       const d = document.createElement("div");
       d.classList.add("modalImageInfoDiv"), r.appendChild(d);
       const m = document.createElement("div");

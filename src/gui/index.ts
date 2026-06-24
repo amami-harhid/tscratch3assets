@@ -24,9 +24,9 @@ const css = `
         overflow: hidden;
         scrollbar-gutter: stable; /* .containerスクロールバー表示幅によるレイアウト崩れを防止する */
     }
-    img:hover {
+    img {
         pointer-events: none;
-    }    
+    }
     .border {
         border: 1px solid black;
         border-radius: 10px;
@@ -119,7 +119,7 @@ const css = `
         background-color: hsla(300,53%,60%,1);
         color: hsla(0, 100%, 100%, 1);
         border-radius:50%;
-        
+        cursor: pointer;
     }
     .play-button {
         position: absolute;
@@ -187,6 +187,7 @@ const css = `
     .modalImageInfoDiv > div {
         overflow-wrap: anywhere;
         margin-right: 20px;
+        cursor: pointer;
     }
     .responsive-text {
         font-size: clamp(10px, 2.0vw, 20px);
@@ -549,7 +550,7 @@ export class Gui {
             modalContentInner.appendChild(_soundDiv);
             const _soundDivInner = document.createElement('div');
             _soundDivInner.classList.add('modalImageDivInner')
-            _soundDivInner.style = 'position:relative;';
+            _soundDivInner.style = 'position:relative;height:180px;';
             _soundDiv.appendChild(_soundDivInner);
             const _soundInfoDiv = document.createElement('div') as HTMLDivElement;
             _soundInfoDiv.classList.add('modalImageInfoDiv');
