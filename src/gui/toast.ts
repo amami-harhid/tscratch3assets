@@ -7,6 +7,7 @@ const toastCss = `
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-size:12px;
   }
 
   /* 個々の Toast */

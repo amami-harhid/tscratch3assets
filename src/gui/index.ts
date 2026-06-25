@@ -3,13 +3,13 @@ import backdropsJson from '../assetJsons/backdrops.json';
 import soundsJson from '../assetJsons/sounrds.json';
 import { SoundSvgData } from './soundSvg';
 import { SoundPlayData, SoundStopData } from './soundSvg';
-import audioBufferToWav from 'audiobuffer-to-wav';
 
 import { loadingGif } from './loadingGif';
 import { Timer } from './timer';
 import { Sound } from './sound';
 import { license } from './license';
-import { clipboard } from './clipboard';
+import { JsonElement, soundModal } from './elementSoundModal';
+import { imageModal } from './elementImageModal';
 
 declare global {
   interface Window {
@@ -199,12 +199,28 @@ const css = `
         -webkit-user-select: none;
         -ms-user-select: none;
     }
+    .copyButtonInfo {
+        padding: 10px;
+    }
+    .copyButton {
+        width:120px;
+        border: none;
+        border-radius: 8px;
+        background-color: #4545fa;
+        color: white;
+    }
+    .copyButton > img {
+        height: 12px;
+    }
+    .copyButtonInfo span {
+        font-size: 10px;
+        padding: 10px;
+    }
+    span.copy-name {
+        font-size:18px;
+    }
 `;
 
-interface JsonElement {
-    readonly name: string;
-    readonly url: string;
-}
 export class Gui {
     private static _observer: IntersectionObserver;
     static getObseerver(): IntersectionObserver {
@@ -448,48 +464,7 @@ export class Gui {
         p.innerText = imageElement.name;
 
         elemDiv.addEventListener('click', ()=>{
-            const modalOverlay = document.querySelector('#modalOverlayElem') as HTMLDivElement;
-            const modalContentInner = modalOverlay.querySelector('#modalContentInnerElem') as HTMLDivElement;
-            const _imageDiv = document.createElement('div') as HTMLDivElement;
-            _imageDiv.classList.add('modalImageDiv')
-            modalContentInner.appendChild(_imageDiv);
-            const _imageDivInner = document.createElement('div') as HTMLDivElement;
-            _imageDivInner.classList.add('modalImageDivInner');
-            _imageDiv.appendChild(_imageDivInner);
-            const _imageInfoDiv = document.createElement('div') as HTMLDivElement;
-            _imageInfoDiv.classList.add('modalImageInfoDiv')
-            modalContentInner.appendChild(_imageInfoDiv);
-
-            const _nameValueDiv = document.createElement('div') as HTMLDivElement;
-            _nameValueDiv.style = 'font-size:1.2rem;';
-            _nameValueDiv.innerText = imageElement.name;
-            _imageInfoDiv.appendChild(_nameValueDiv);
-            _nameValueDiv.addEventListener('click', ()=>{
-                clipboard(imageElement.name);
-            }) 
-
-            const _urlValueDiv = document.createElement('div') as HTMLDivElement;
-            _urlValueDiv.style = 'margin-top:10px;';
-            _urlValueDiv.addEventListener('click', ()=>{
-                clipboard(imageElement.url);
-            }) 
-            _urlValueDiv.innerText = imageElement.url;
-            _imageInfoDiv.appendChild(_urlValueDiv);
-
-            const _image = document.createElement('img') as HTMLImageElement;
-            _image.setAttribute('oncontextmenu', 'return false;');
-            _image.onload = ()=>{
-                if(_image.width < _image.height){
-                    _image.setAttribute('height', '150px');
-                }else{
-                    _image.setAttribute('width', '150px');
-                }
-            }
-            _image.src = imageElement.url;
-            _imageDivInner.appendChild(_image);  
-            
-            if(modalOverlay)
-                modalOverlay.style.display = 'flex';
+            imageModal(imageElement);
         })
     }
     static viewBackdrops(): void {
@@ -543,70 +518,10 @@ export class Gui {
         await sounder.makeSoundPlayer();
 
         elemDiv.addEventListener('click', ()=>{
-            const modalOverlay = document.querySelector('#modalOverlayElem') as HTMLDivElement;
-            const modalContentInner = modalOverlay.querySelector('#modalContentInnerElem') as HTMLDivElement;
-            const _soundDiv = document.createElement('div') as HTMLDivElement;
-            _soundDiv.classList.add('modalImageDiv');
-            modalContentInner.appendChild(_soundDiv);
-            const _soundDivInner = document.createElement('div');
-            _soundDivInner.classList.add('modalImageDivInner')
-            _soundDivInner.style = 'position:relative;height:180px;';
-            _soundDiv.appendChild(_soundDivInner);
-            const _soundInfoDiv = document.createElement('div') as HTMLDivElement;
-            _soundInfoDiv.classList.add('modalImageInfoDiv');
-            modalContentInner.appendChild(_soundInfoDiv);
 
-            const _soundName = document.createElement('div') as HTMLDivElement;
-            _soundName.style = 'font-size:1.2rem;';
-            _soundName.innerText = sound.name;
-            _soundInfoDiv.appendChild(_soundName);
-            _soundName.addEventListener('click',()=>{
-                clipboard(sound.name);
-            });
-            const _soundUrl = document.createElement('div') as HTMLDivElement;
-            _soundUrl.style = 'margin-top:10px;';
-            _soundUrl.innerText = sound.url;
-            _soundInfoDiv.appendChild(_soundUrl);
-            _soundUrl.addEventListener('click',()=>{
-                clipboard(sound.url);
-            });
-            const _image = document.createElement('img') as HTMLImageElement;
-            _image.classList.add('soundImage');
-            _image.setAttribute('oncontextmenu', 'return false;');
-
-            _image.src = SoundSvgData;
-            _image.setAttribute('height', '150px');
-            _soundDivInner.appendChild(_image);  
-            const _control = document.createElement('div');
-            _control.classList.add('play-button');
-            _soundDivInner.appendChild(_control);
-            _control.style = 'position:absolute; top:2px;';
-            const _playMark = document.createElement('img') as HTMLImageElement;
-            _playMark.setAttribute('width', '50%');
-            _control.appendChild(_playMark);
-            _playMark.src = SoundPlayData;
-            _control.addEventListener('mouseenter', ()=>{
-                sounder.play();
-            });
-            _control.addEventListener('mouseleave', ()=>{
-                sounder.stop();
-            })
-            if(modalOverlay)
-                modalOverlay.style.display = 'flex';
-
-
+            soundModal(sound, sounder);   
 
         });
         
-    }
-
-    static async convertToPCM(url:string): Promise<string> {
-        const ctx = new AudioContext();
-        const buf = await fetch(url).then(r => r.arrayBuffer());
-        const decoded = await ctx.decodeAudioData(buf);
-
-        const wav = audioBufferToWav(decoded);
-        const blob = new Blob([wav], { type: "audio/wav" });
-        return URL.createObjectURL(blob);
     }
 }

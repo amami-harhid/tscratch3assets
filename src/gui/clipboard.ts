@@ -4,7 +4,7 @@ export const clipboard = async (text: string): Promise<void> => {
     try {
         console.log(text);
         await navigator.clipboard.writeText(text);
-        toast.show('コピー完了');
+        toast.show(`Copied. ${text}`);
 
     }catch(e){
         toast.show('コピー失敗');
